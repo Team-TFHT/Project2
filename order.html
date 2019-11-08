@@ -4,21 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>proj2</Title>
-  <link rel="stylesheet" href="css/styleOrder.css">
+  <link rel="stylesheet" media="screen" href="css/reset.css" />
+  <link rel="stylesheet" media="screen" href="css/style.css" />
+  <script async src="js/script.js"></script>
 </head>
 <body>
   <header>
   </header>
   <h1><img src="media/FKA-SquareknotBelts.gif" alt="SquareKnot Belts"></h1>
-  <h2>"Belts are the epitome of the square-knotter's art"</h2>
-  <p>
-  Frayed Knot Art's Belt Selection Includes 3 types: The 12 line, the 16 line, and the 20 line belts. All three come in different line thickness detailed on the order form.  24-32 line belts are available by special order.
-  </p>
+  <h2 id="HeaderForm">Belts are the epitome of the square-knotter's art"</h2>
+  <p> Frayed Knot Art's Belt Selection Includes 3 types: The 12 line, the 16 line, and the 20 line belts. </p>
+  <p> All three come in different line thickness detailed on the order form. </p>  
+  <p> 24-32 line belts are available by special order. </p>
   <h3><a href="http://www.frayedknotarts.com/knots/pics/JackBelt1.gif"> <image src="media/JackBelt1.gif" alt="belt" id="12jb1" width="312" height="44"></a></h3>
     
   </div>
   <div id="deev">
-    <form name="orderform" method="get" autocomplete="on" action="#null">
+    <form autocomplete="on" name = "Form" onsubmit="return init()" action = "#">
       <div>
         <label> Email Address:</label>
       </div>
@@ -48,7 +50,7 @@
       </div>
       <input type="text" id="cno" required>
       <div>
-        <label> expiration date:</label>
+        <label> Expiration Date:</label>
       </div>
       <input type="text" placeholder="mm/yy" id="exp" required>
 	  <div>

@@ -11,7 +11,7 @@
 }
 
 /* Links inside navbar */
-.navbar a {
+.navbar a { 
   float: left;
   font-size: 1.296em;
   color: white;
@@ -74,7 +74,7 @@
 }  
 
 /* heading 1 css */
-h1 { 
+h { 
   text-align: center;
   color: #000000;
   font-family: "Times New Roman", Times, serif;
@@ -86,12 +86,22 @@ h2 {
   color: #000000:
   font-family: "Times New Roman", Times, serif;
 }
+
+#HeaderForm {
+  font-family : "Diplomata SC", "Ewert", cursive;
+}
+	
 	
 body {
   background: url('https://raw.githubusercontent.com/ITMD-362-Fall-2019-Project-2/Project-2/master/media/grass_under_sky.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-   background-position: center center;  
+  background-position: center center;  
+}
+
+p {
+  text-align: center;
+  font-family : "Diplomata SC", "Ewert", cursive;
 }
 
 fieldset{
@@ -107,19 +117,27 @@ fieldset{
 }
 
   label {
+	color: #de1818;
 	display: block;
 	text-align: center;
 	font-size:1.215em;
 	font-family : "Diplomata SC", "Ewert", cursive;
 }
-  
+
+#deev {
+  text-align: center;
+}
+
   input {
 	width : 90%;
+	text-align: center;
 	border-radius: .5em;
 	border: solid #000000;
 }
   
-  input[type="submit"] {
+  #butt {
+	color: #de1818;
+	text-align: center;
 	font-size : 1.383em;
 	font-family : "Diplomata SC", "Ewert", cursive;
 }
@@ -154,9 +172,7 @@ fieldset{
     font-size: 1em;
 	margin-left: 3.5;
  }
-  input[type=submit] {
-    margin-left: 1.8em;
- }
+
 }
 
 @media only screen and (min-width: 992px) {
