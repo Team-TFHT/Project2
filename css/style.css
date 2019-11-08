@@ -10,8 +10,22 @@
   font-family: "Times New Roman", Times, serif;
 }
 
+.navbar2 {
+  overflow: hidden;
+  background-color: #30091a;
+  font-family: "Times New Roman", Times, serif;
+}
+
 /* Links inside navbar */
 .navbar a { 
+  float: left;
+  font-size: 1.296em;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.navbar2 a { 
   float: left;
   font-size: 1.296em;
   color: white;
@@ -42,6 +56,12 @@
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
+
+.navbar2 a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+
 
 /* Dropdown content */
 .dropdown-content {
@@ -80,6 +100,12 @@ h {
   font-family: "Times New Roman", Times, serif;
 }
 
+h1 {
+  text-align: center;
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
+}
+
 /* heading 2 css */
 h2 {
   text-align: center;
@@ -100,12 +126,13 @@ body {
 }
 
 p {
+  color: #ad2d2d;
   text-align: center;
   font-family : "Diplomata SC", "Ewert", cursive;
 }
 
-fieldset{
-  background-color: #bfa443
+  fieldset{
+    background-color: #bfa443
 }
 
   #title {
@@ -157,10 +184,15 @@ fieldset{
 	font-family : "Diplomata SC", "Ewert", cursive;
 }
   img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+  #link {
+    text-align: center;
 }
 
 @media screen and (min-width: 600px) {
