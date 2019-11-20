@@ -1,110 +1,105 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>proj2</Title>
-    <link rel="stylesheet" media="screen" href="css/reset.css"/>
-    <link rel="stylesheet" media="screen" href="css/style.css"/>
-    <script async src="js/script.js"></script>
-  </head>
-  <body>
-      <div class="navbar">
-      <div class="dropdown">
-        <button class="dropbtn">Table of Contents
-        <i class="fa fa-caret-down:"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="http://www.frayedknotarts.com/makeup.html"> MAKING and USING A BELLYHOOK</a>
-          <a href="tutor1.html"> Starting the belt  </a>
-          <a href="http://www.frayedknotarts.com/how2belt2.html"> Continuing the belt</a>
-          <a href="http://www.frayedknotarts.com/how2belt5.html"> Adding a belt loop</a>    
-          <a href="http://www.frayedknotarts.com/how2belt2A.html"> Continuing the belt</a>    
-          <a href="http://www.frayedknotarts.com/how2belt3.html"> Ending the belt</a>    
-          <a href="http://www.frayedknotarts.com/how2belt4.html"> Repairing line breaks</a>    
-          <a href="http://www.frayedknotarts.com/tensquare.html"> Making a Ten-Diamond feature</a>  
-        </div>
+<head>
+  <title>Order Page</Title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media="screen" href="css/reset.css"/>
+  <link rel="stylesheet" media="screen" href="css/style.css"/>
+  <script async src="js/script.js"></script>
+</head>
+<body>
+  <div class="navbar">
+    <div class="dropdown">
+      <button class="dropbtn">Table of Contents</button>
+      <div class="dropdown-content">
+        <a href="http://www.frayedknotarts.com/makeup.html"> MAKING and USING A BELLYHOOK</a>
+        <a href="tutor1.html"> Starting the belt  </a>
+        <a href="http://www.frayedknotarts.com/how2belt2.html"> Continuing the belt</a>
+        <a href="http://www.frayedknotarts.com/how2belt5.html"> Adding a belt loop</a>    
+        <a href="http://www.frayedknotarts.com/how2belt2A.html"> Continuing the belt</a>    
+        <a href="http://www.frayedknotarts.com/how2belt3.html"> Ending the belt</a>    
+        <a href="http://www.frayedknotarts.com/how2belt4.html"> Repairing line breaks</a>    
+        <a href="http://www.frayedknotarts.com/tensquare.html"> Making a Ten-Diamond feature</a>  
       </div>
-      <a href="order.html"> Order Product</a>
-      <a href="http://www.frayedknotarts.com/index.html"> Main Page  </a>    
-      <a href="tutor1.html"> Tutorials  </a>  
     </div>
-    <header>
-    </header>
-    <h1><img src="media/fka-squareknotbelts.gif" alt="SquareKnot Belts"></h1>
-    <h2 id="HeaderForm">"Belts are the epitome of the square-knotter's art"</h2>
-    <p> Frayed Knot Art's Belt Selection Includes 3 types: The 12 line, the 16 line, and the 20 line belts. </p>
-    <p> 24-32 line belts are available by special order. </p>
-    <h3>
-      <a href="http://www.frayedknotarts.com/knots/pics/JackBelt1.gif">
-        <image src="media/jackbelt1.gif" alt="12-line belt" id="12jb1">
-      </a>
-	  <p>The 12-Line Belt</p>
-    </h3>
-	<h4>
-	  <a href="http://www.frayedknotarts.com/knots/pics/mybelt1.gif">
-	    <image src="media/mybelt1.gif" alt="16-line belt">
-	  </a>
-	  <p>The 16-Line Belt</p>
-	</h4>
-	<h5>
-	  <a href="http://www.frayedknotarts.com/knots/pics/stretch3.gif">
-	    <image src="media/stretch3.gif" alt="20-line belt">
-	  </a>
-	  <p>The 20-Line Belt</p>
-	</h5>
-    </div>
-    <div id="deev">
-	  <h6>Please Select Your Line Count</h6>
-      <form autocomplete="on" name = "Form" onsubmit="return init()" action = "#">
-	    <div>
-	      <input type="radio" name="radios" value="12" id="beltchoice1" checked> 
-		  <label for="beltchoice1">12-Line</label>
-		  <input type="radio" name="radios" value="16" id="beltchoice2">
-		  <label for="beltchoice2">16-Line</label>
-		  <input type="radio" name="radios" value="20" id="beltchoice3">
-		  <label for="beltchoice3">20-Line</label>
-		</div>
-        <div>
-          <label> Email Address:</label>
-        </div>
-        <input type="email" id="email" required>
-        <div>
-          <label> Name on Card</label>
-        </div>
-        <input type="text" id="fullname" required>
-        <div>
-          <label> Address</label>
-        </div>
-        <input type="text" id="addre" required>
-        <div>
-          <label> City</label>
-        </div>
-        <input type="text" id="city" required>
-        <div>
-          <label> State</label>
-        </div>
-        <input type="text" id="state" required>
-        <div>
-          <label> Zip Code</label>
-        </div>
-        <input type="text" id="zip" required>
-        <div>
-          <label> Card Number</label>
-        </div>
-        <input type="number" id="cno" required>
-        <div>
-          <label> Expiration Date:</label>
-        </div>
-        <input type="text" placeholder="mm/yy" id="exp" required>
-        <div>
-          <label> Security Code</label>
-        </div>
-        <input type="text" id="svc" required>
-        <div>
-          <input id="butt" type="submit" value="GIMME THE BELT!">
-        </div>
-      </form>
-    </div>
-  </body>
+    <a href="order.html"> Order Product</a>
+    <a href="http://www.frayedknotarts.com/index.html"> Main Page  </a>    
+    <a href="tutor1.html"> Tutorials  </a>  
+  </div>
+  <h1><img src="media/logo.gif" alt="SquareKnot Belts"></h1>
+  <h2 id="HeaderForm">"Belts are the epitome of the square-knotter's art"</h2>
+  <p> Frayed Knot Art's Belt Selection Includes 3 types: The 12 line, the 16 line, and the 20 line belts. </p>
+  <p> 24-32 line belts are available by special order. </p>
+  <h3>
+    <a href="http://www.frayedknotarts.com/knots/pics/JackBelt1.gif">
+      <image src="media/jackbelt1.gif" alt="12-line belt" id="12jb1">
+    </a>
+	<p>The 12-Line Belt</p>
+  </h3>
+  <h4>
+	<a href="http://www.frayedknotarts.com/knots/pics/mybelt1.gif">
+	  <image src="media/mybelt1.gif" alt="16-line belt">
+	</a>
+	<p>The 16-Line Belt</p>
+  </h4>
+  <h5>
+	<a href="http://www.frayedknotarts.com/knots/pics/stretch3.gif">
+	  <image src="media/stretch3.gif" alt="20-line belt">
+	</a>
+	<p>The 20-Line Belt</p>
+  </h5>
+  <div id="deev">
+	<h6>Please Select Your Line Count</h6>
+    <form autocomplete="on" name = "Form" onsubmit="return init()" action = "#">
+	  <div>
+	    <input type="radio" name="radios" value="12" id="beltchoice1" checked> 
+	    <label for="beltchoice1">12-Line</label>
+	    <input type="radio" name="radios" value="16" id="beltchoice2">
+	    <label for="beltchoice2">16-Line</label>
+	    <input type="radio" name="radios" value="20" id="beltchoice3">
+	    <label for="beltchoice3">20-Line</label>
+      </div>
+      <div>
+        <label> Email Address:</label>
+      </div>
+      <input type="email" id="email" required>
+      <div>
+        <label> Name on Card</label>
+      </div>
+      <input type="text" id="fullname" required>
+      <div>
+        <label> Address</label>
+      </div>
+      <input type="text" id="addre" required>
+      <div>
+        <label> City</label>
+      </div>
+      <input type="text" id="city" required>
+      <div>
+        <label> State</label>
+      </div>
+      <input type="text" id="state" required>
+      <div>
+        <label> Zip Code</label>
+      </div>
+      <input type="text" id="zip" required>
+      <div>
+        <label> Card Number</label>
+      </div>
+      <input type="number" id="cno" required>
+      <div>
+        <label> Expiration Date:</label>
+      </div>
+      <input type="text" placeholder="mm/yy" id="exp" required>
+      <div>
+        <label> Security Code</label>
+      </div>
+      <input type="text" id="svc" required>
+      <div>
+        <input id="butt" type="submit" value="GIMME THE BELT!">
+      </div>
+    </form>
+  </div>
+</body>
 </html>
