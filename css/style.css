@@ -7,10 +7,15 @@
   https://colorhunt.co/palette/166646
 */
 /* Navbar container */
+
 .navbar {
   overflow: hidden;
   background-color: #000000;
   font-family: "Times New Roman", Times, serif;
+  list-style-type: none;
+  width:100%;
+  padding: none;
+
 }
 
 .navbar2 {
@@ -222,21 +227,48 @@ p {
     text-align: center;
 }
 
-@media screen and (min-width: 600px) {
-  body {
-    font-size: 1.913em;
-  }
-
-
+@media screen and (min-width: 259px) {
+body {
+  font-size: 1.913em;
 }
 
-@media only screen and (min-width: 992px) {
-  body {
-    font-size: 2.178em;
-  }
+.navbar {
+overflow: hidden;
+background-color: #000000;
+font-family: "Times New Roman", Times, serif;
+list-style-type: none;
+width: 234.5px;
+padding-left: 30%;
+padding-right: 32%;
+text-align: center;
 }
-  
-  
+}
+
+@media only screen and (min-width: 596px) {
+body {
+font-size: 2.178em;
+}
+
+.navbar {
+overflow: hidden;
+background-color: #000000;
+font-family: "Times New Roman", Times, serif;
+list-style-type: none;
+width: 234.5px;
+padding-left: 40%;
+padding-right: 40%;
+text-align: center;
+}
+}
+@media only screen and (min-width: 1110px) {  
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+  font-family: "Times New Roman", Times, serif;
+  width:100%;
+  padding: 0%;
+}
+}
 
   
   
