@@ -15,10 +15,8 @@ function validate() {
   }
 
 function copyDate() {
-  var cpyrt = document.getElementById(“copyright”)
-  if (cpyrt) {
-     cpyrt.firstChild.nodeValue = (new Date()).getFullYear();
-  }
+  var cpyrt = document.getElementById(“copyright”);
+  cpyrt = dt.getYear();
 }
 
 window.onload = copyDate;
