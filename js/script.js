@@ -1,13 +1,13 @@
 function init()
 {
   var name = document.getElementById("fullname").value;
-  var email = document.getElementById("email").value;
+  var addr = document.getElementById("addre").value;
   
-  alert("Thank You " +name+ " for your order we will send you at message to "+email+"");
+  alert("Thank You " +name+ " we will send your order to "+addr+" ");
 
 }
  function validate() {
-	var x = document.forms["myForm"]["fname"].value;
+	var x = document.forms["myForm"]["cno"].value;
 	if(x == "") {
 		alert("your must be filled out!");
 		return false;
