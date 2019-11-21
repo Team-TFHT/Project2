@@ -2,7 +2,10 @@
   Minor Second Modular Scale:
   https://www.modularscale.com/?1&em&1.067
 */
-
+/*
+  Color Scheme by Color Hunt
+  https://colorhunt.co/palette/166646
+*/
 /* Navbar container */
 .navbar {
   overflow: hidden;
@@ -12,7 +15,7 @@
 
 .navbar2 {
   overflow: hidden;
-  background-color: #30091a;
+  background-color: #eb8242;
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -56,11 +59,11 @@
 
 /* Added hover confirmation */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #da2d2d;
 }
 
 .navbar2 a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #da2d2d;
 }
 
 
@@ -87,7 +90,7 @@
 
 /* Added hover confirmation */
 .dropdown-content a:hover {
-  background-color: #8A8A8A;
+  background-color: #da2d2d;
 }
 
 /* Show dropdown menu on hover */
@@ -117,6 +120,27 @@ h2 {
 
 #HeaderForm {
   font-family : "Diplomata SC", "Ewert", cursive;
+  color: #9d0b0b;
+}
+
+#OrderLineCount {
+  color: #9d0b0b;
+}
+
+#indexh1 {
+  color: #ad8e0d;
+}  
+
+#indexh2 {
+  color: #ad8e0d;
+}
+
+#Tutorh1 {
+  color: #ad8e0d;
+}
+
+#Tutorh2 {
+  color: #ad8e0d;
 }
 	
 	
@@ -128,7 +152,7 @@ body {
 }
 
 p {
-  color: #ad2d2d;
+  color: #9d0b0b;
   text-align: center;
   font-family : "Diplomata SC", "Ewert", cursive;
 }
@@ -146,7 +170,7 @@ p {
 }
 
   label {
-	color: #de1818;
+	color: #9d0b0b;
 	display: block;
 	text-align: center;
 	font-size:1.215em;
@@ -165,7 +189,7 @@ p {
 }
   
   #butt {
-	color: #de1818;
+	color: #9d0b0b;
 	margin-bottom: .5em;
 	text-align: center;
 	font-size : 1.383em;
