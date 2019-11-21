@@ -170,75 +170,76 @@ p {
   font-family : "Diplomata SC", "Ewert", cursive;
 }
 
-  fieldset{
-    background-color: #bfa443
+#text {
+  color: #9d0b0b;
+  text-align: center;
+  font-family : "Diplomata SC", "Ewert", cursive;
+}
+	
+fieldset{
+  background-color: #bfa443
 }
 
-  #title {
-    padding: .5em .5em .2em .5em;
-	margin: .5em .5em .2em .5em;
-	text-align: center;
-	font-size:0.878em; 
-	font-family: "Diplomata SC", "Ewert", cursive;
+#title {
+  padding: .5em .5em .2em .5em;
+  margin: .5em .5em .2em .5em;
+  text-align: center;
+  font-size:0.878em; 
+  font-family: "Diplomata SC", "Ewert", cursive;
 }
 
-  label {
-	color: #9d0b0b;
-	display: block;
-	text-align: center;
-	font-size:1.215em;
-	font-family : "Diplomata SC", "Ewert", cursive;
+label {
+  color: #9d0b0b;
+  display: block;
+  text-align: center;
+  font-size:1.215em;
+  font-family : "Diplomata SC", "Ewert", cursive;
 }
 
 #deev {
   text-align: center;
 }
 
-  input {
-	width : 45%;
-	text-align: center;
-	border-radius: .5em;
-	border: solid #000000;
+input {
+  width : 45%;
+  text-align: center;
+  border-radius: .5em;
+  border: solid #000000;
+}
+
+#butt {
+  color: #9d0b0b;
+  margin-bottom: .5em;
+  text-align: center;
+  font-size : 1.383em;
+  font-family : "Diplomata SC", "Ewert", cursive;
 }
   
-  #butt {
-	color: #9d0b0b;
-	margin-bottom: .5em;
-	text-align: center;
-	font-size : 1.383em;
-	font-family : "Diplomata SC", "Ewert", cursive;
+input [type="text"] {
+  font-size : 1.138em;
+  font-family : "Diplomata SC", "Ewert", cursive;
 }
   
-  input [type="text"] {
-	font-size : 1.138em;
-	font-family : "Diplomata SC", "Ewert", cursive;
+input [type="email"] {
+  font-size : 1.383em;
+  font-family : "Diplomata SC", "Ewert", cursive;
+}
+
+input [type="number"] {
+  font-size : 1.383em;
+  font-family : "Diplomata SC", "Ewert", cursive;
 }
   
-  input [type="email"] {
-    font-size : 1.383em;
-	font-family : "Diplomata SC", "Ewert", cursive;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-  input [type="number"] {
-	font-size : 1.383em;
-	font-family : "Diplomata SC", "Ewert", cursive;
+#link {
+ text-align: center;
 }
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-
-  #link {
-    text-align: center;
-}
-
-
-
-
-
 
 @media screen and (min-width: 259px) {
 body {
@@ -246,32 +247,32 @@ body {
 }
 
 .navbar {
-overflow: hidden;
-background-color: #000000;
-font-family: "Times New Roman", Times, serif;
-list-style-type: none;
-width: 234.5px;
-padding-left: 30%;
-padding-right: 32%;
-text-align: center;
-}
+  overflow: hidden;
+  background-color: #000000;
+  font-family: "Times New Roman", Times, serif;
+  list-style-type: none;
+  width: 234.5px;
+  padding-left: 30%;
+  padding-right: 32%;
+  text-align: center;
+  }
 }
 
 @media only screen and (min-width: 596px) {
 body {
-font-size: 2.178em;
+  font-size: 2.178em;
 }
 
 .navbar {
-overflow: hidden;
-background-color: #000000;
-font-family: "Times New Roman", Times, serif;
-list-style-type: none;
-width: 234.5px;
-padding-left: 40%;
-padding-right: 40%;
-text-align: center;
-}
+  overflow: hidden;
+  background-color: #000000;
+  font-family: "Times New Roman", Times, serif;
+  list-style-type: none;
+  width: 234.5px;
+  padding-left: 40%;
+  padding-right: 40%;
+  text-align: center;
+  }
 }
 @media only screen and (min-width: 1110px) {  
 .navbar {
