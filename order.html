@@ -51,7 +51,7 @@
   </h5>
   <div id="deev">
 	<h6 id="OrderLineCount">Please Select Your Line Count</h6>
-    <form autocomplete="on" name = "myForm" onsubmit="return init()" action = "#">
+    <form autocomplete="on" name = "myForm" onsubmit="return init()">
 	  <div>
 	    <input type="radio" name="radios" value="12" id="beltchoice1" checked> 
 	    <label for="beltchoice1">12-Line</label>
@@ -67,11 +67,11 @@
       <div>
         <label> Name on Card</label>
       </div>
-      <input type="text" id="fullname" placeholder="Fullname" required>
+      <input type="text" id="fullname" name="fullname" placeholder="Fullname" required>
       <div>
         <label> Address</label>
       </div>
-      <input type="text" id="addre" placeholder="Address" required>
+      <input type="text" id="addre" name="addre" placeholder="Address" required>
       <div>
         <label> City</label>
       </div>
@@ -87,7 +87,7 @@
       <div>
         <label> Card Number</label>
       </div>
-      <input type="number" id="cno" placeholder="Card Number" required>
+      <input type="number" id="cno" name="cno" placeholder="Card Number" required>
       <div>
         <label> Expiration Date:</label>
       </div>

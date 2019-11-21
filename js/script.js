@@ -1,15 +1,14 @@
-function init()
-{
+function init(){
   var name = document.getElementById("fullname").value;
   var addr = document.getElementById("addre").value;
   
-  alert("Thank You " +name+ " we will send your order to "+addr+" ");
 
+  alert("Thank You " +name+ " we will send your order to "+addr+" ");
 }
  function validate() {
 	var x = document.forms["myForm"]["cno"].value;
 	if(x == "") {
-		alert("your must be filled out!");
+		alert("your card number must be filled out!");
 		return false;
 	}
 /*  var belt = document.getElementById("belt_length").value;
